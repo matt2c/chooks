@@ -8,7 +8,16 @@ function closeNav() {
 
 
 
+
 (function($) {
+
+  $(window).scroll(function(){
+    $('#MainNav').attr('style','opacity:0.9 !important');
+    $('#MainNav').remove('classfix').addClass('');
+  });
+
+
+
 
   // Menu filer
   $("#menu-flters li a").click(function() {
@@ -27,7 +36,7 @@ function closeNav() {
   });
 
   // Add smooth scrolling to all links in navbar + footer link
-  $(".sidenav a").on('click', function(event) {
+  $(".site-menu a").on('click', function(event) {
     var hash = this.hash;
     if (hash) {
       event.preventDefault();
