@@ -36,7 +36,7 @@ table {
 #banner h2{
     font-family: 'Satisfy', sans-serif;
     font-size: 45px;
-    color: #FFB03B;
+    color: #e4c24a;
 }
 #banner p{
     font-family: 'PT Sans', sans-serif;
@@ -50,7 +50,7 @@ table {
     font-family: 'Satisfy', sans-serif;
     font-size: 65px;
     margin-top: 140px;
-    color: #FFB03B;
+    color: #e4c24a;
 }
 .sidenav {
     height: 100%;
@@ -95,7 +95,7 @@ table {
 }
 
 .header-h {
-    color: #FFB03B;
+    color: #e4c24a;
     font-size: 46px;
     font-family: 'Satisfy', sans-serif;
     font-weight: 300;
@@ -193,7 +193,7 @@ table {
     height: auto;
 }
 .contacts-btn {
-    background-color:  #FFB03B !important;
+    background-color:  #e4c24a !important;
     color: #ffffff !important;
     width: 170px;
     height: 54px;
@@ -248,7 +248,7 @@ table {
 
 .heading{
     font-family: 'Satisfy', sans-serif;
-    color: #FFB03B;
+    color: #e4c24a;
     font-size: 24px;
 }
 .marb-35{
@@ -259,7 +259,7 @@ table {
 }
 .details-list ul li i {
     margin-right: 10px;
-    color: #ffb03b;
+    color: #e4c24a;
 }
 #about img
 {
@@ -287,13 +287,13 @@ table {
     overflow: auto;
 }
 .content-holder h2 {
-    color: #FFB03B;
+    color: #e4c24a;
     font-size: 32px;
     padding-bottom: 15px;
     font-family: 'Satisfy', sans-serif;
 }
 .content-holder address strong {
-    color: #FFB03B;
+    color: #e4c24a;
     padding: 10px 0px;
 }
 .details-text p {
@@ -303,7 +303,7 @@ table {
     font-weight: 300;
 }
 .btn-read-more {
-    background: #FFB03B;
+    background: #e4c24a;
     padding: 7px 19px;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
@@ -333,7 +333,7 @@ table {
     font-family: Montserrat,arial;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FFB03B;
+    color: #e4c24a;
 }
 .menu-restaurant .menu-line {
     position: absolute;
@@ -361,9 +361,9 @@ table {
 }
 
 #menu-flters ul li a.active, #menu-flters ul li a:hover {
-    background: #FFB03B;
+    background: #e4c24a;
     color: #fff;
-    border: 1px solid #FFB03B;
+    border: 1px solid #e4c24a;
 }
 #menu-flters ul li {
     display: inline-block;
@@ -406,7 +406,7 @@ table {
     padding-bottom: 20px;
     font-family: 'Satisfy', sans-serif;
     font-size: 44px;
-    color: #FFB03B;
+    color: #e4c24a;
 }
 .footer .widget, .footer address {
     color: #999;
@@ -587,8 +587,7 @@ table {
 }
 
 #main-nav ul.nav>li.active>a {
-  color: #fff;
-  background-color: rgb(205, 128, 5);
+  color: black;
 }
 
 .hideClass {
@@ -615,11 +614,11 @@ table {
   -moz-transition: all .5s;
   -webkit-transition: all .5s;
   transition: all .5s;
-  background: #F39C12;
+  background: #ffffff38;
 }
 
 .isFixed {
-  background: #F39C12;
+  background: #e4c24a;
   -o-transition: all .5s;
   -ms-transition: all .5s;
   -moz-transition: all .5s;

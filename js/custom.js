@@ -54,3 +54,16 @@ function closeNav() {
 	});
 
 })(jQuery);
+
+window.onscroll = function() {
+  growShrinkLogo()
+};
+
+function growShrinkLogo() {
+  var Logo = document.getElementById("Logo")
+  if (document.body.scrollTop > 15 || document.documentElement.scrollTop > 15) {
+    Logo.style.width = '45px';
+  } else {
+    Logo.style.width = '45px';
+  }
+}
