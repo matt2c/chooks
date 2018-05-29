@@ -37,6 +37,7 @@ table {
     font-family: 'Satisfy', sans-serif;
     font-size: 45px;
     color: #e4c24a;
+    padding-top: 60px;
 }
 #banner p{
     font-family: 'PT Sans', sans-serif;
@@ -484,6 +485,7 @@ table {
 .isFixed {
   left: 0px;
   width: 100%;
+  opacity: 2 !important;
 
 }
 
@@ -529,7 +531,7 @@ table {
 
 .nav>li>a {
   display: inline-block;
-  color: #000000;
+  color: #dfbb42;
   padding: 22px 15px;
   font-size: 17px;
   font-weight: 500;
@@ -587,7 +589,7 @@ table {
 }
 
 #main-nav ul.nav>li.active>a {
-  color: black;
+  color: #dfbb42;
 }
 
 .hideClass {
@@ -618,7 +620,7 @@ table {
 }
 
 .isFixed {
-  background: #e4c24a;
+  background: #848484;
   -o-transition: all .5s;
   -ms-transition: all .5s;
   -moz-transition: all .5s;
