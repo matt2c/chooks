@@ -59,6 +59,7 @@ window.onscroll = function() {
   growShrinkLogo()
 };
 
+// Shrink Logo with scrolling to Navbar 
 function growShrinkLogo() {
   var Logo = document.getElementById("Logo")
   if (document.body.scrollTop > 15 || document.documentElement.scrollTop > 15) {

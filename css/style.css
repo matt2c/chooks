@@ -510,7 +510,7 @@ table {
 }
 
 .navbar-nav {
-  margin: 0 auto;
+  margin: 10 auto;
   text-align: center;
   float: none;
 }
@@ -634,5 +634,21 @@ table {
 }
 .class2{
 	 opacity: 0.1;
+
+}
+
+.stamps{
+    height: 100px;
+    width: 100px;
+}
+
+.btn{
+    padding: 14px 50px;
+}
+
+.gps{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
 
 }
