@@ -650,5 +650,8 @@ table {
     display: flex;
     justify-content: center;
     padding-top: 100px;
+}
 
+.carousel-inner img{
+    height:500px!important
 }

@@ -35,6 +35,16 @@ function closeNav() {
     }, 300);
   });
 
+  $("#menu-flters li a.active").each(function(){
+    var selectedFilter = $(this).data("filter");
+
+    $(".menu-restaurant").hide();
+
+    $(selectedFilter).show();
+  });
+
+ // $("#menu-wrapper").removeClass("hide");
+
   // Add smooth scrolling to all links in navbar + footer link
   $(".site-menu a").on('click', function(event) {
     var hash = this.hash;
@@ -68,3 +78,35 @@ function growShrinkLogo() {
     Logo.style.width = '45px';
   }
 }
+
+
+// Slideshow section
+
+/* 
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+*/
