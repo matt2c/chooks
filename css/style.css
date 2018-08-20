@@ -656,3 +656,7 @@ table {
 .carousel-inner img{
     height:500px!important
 }
+
+.burger-menu {
+    z-index: 1;
+}
